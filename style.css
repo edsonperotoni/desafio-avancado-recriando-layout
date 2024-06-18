@@ -1,0 +1,103 @@
+body {
+  text-align: center;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  background: linear-gradient(180deg, #2C2B3D 82.08%, #2f2e3f 100%);
+  min-height: 100vh;
+  padding: 0px;
+}
+
+main {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 1080px;
+  padding-top: 70px;
+}
+
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 55px;
+  color: #FFFFFF;
+  margin: 0px auto 100px;
+  padding: 0px;
+  font-family: "JetBrains Mono", monospace;
+}
+
+nav a.logo {
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 24;
+  line-height: 28;
+}
+
+nav div.list {
+  display: flex;
+  gap: 48px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 14;
+}
+
+section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  gap: 77px;
+  margin-bottom: 150px;
+}
+
+div.texto {
+  font-family: "JetBrains Mono", monospace;
+  color: #FFFFFF;
+  max-width: 600px;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 40px;
+}
+
+.destaque {
+  color: #00BFA6;
+}
+
+.conteudo {
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 28px;
+  color: #C2C2C2;
+}
+
+a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.line {
+  width: 568px;
+  height: 0px;
+  margin: 0 auto 8px;
+  border: 1px solid #00BFA6
+}
+
+footer p {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 14px;
+  line-height: 28px;
+  font-weight: 500;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+
+#padlock {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
